@@ -4,7 +4,7 @@
 	"description": "This is a POC Project for JS sonar integration",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha"
+		"test": "nyc mocha"
 	},
 	"keywords": [
 		"js",
@@ -12,5 +12,8 @@
 		"sonar-cloud"
 	],
 	"author": "Faisal Khatri",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"nyc": "^15.1.0"
+	}
 }
